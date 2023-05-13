@@ -1,2 +1,3 @@
-# InvestmentGA
-Building optimal Investment Portfolio using Genetic Algorithm
+# Genetic Algorithm for Multi-Objective Investment Portfolio Optimization
+
+This project introduces a novel technique for optimizing investment portfolio using genetic algorithms. The technique involves creating a random population of portfolio weight vectors that represent candidate solutions to the portfolio optimization problem and calculating the objective function for each candidate solution in the population to evaluate their fitness. The fittest individuals in the population are selected to be the parents for the next generation using techniques like tournament selection. The technique can be used to search for the optimal combination of portfolio weights that maximizes a given objective function such as Sharpe ratio, which measures the risk-adjusted return of a portfolio.
